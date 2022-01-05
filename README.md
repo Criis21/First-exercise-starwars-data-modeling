@@ -1,30 +1,37 @@
-# StarWars blog database
+<p align="center">
+	<img
+		width="300"
+		alt="4Geeks Academy"
+		src="https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true">
+</p>
 
-Inside he `src/models.py` file you will find a couple of classes describing an example database.
 
-Here is a 4min video explaining what UML is: [https://www.youtube.com/watch?v=UI6lqHOVHic](https://www.youtube.com/watch?v=UI6lqHOVHic)
+<h1 align="center">Welcome to 4Geeks Academy</h1>
 
+
+<h3 align="center">&lt;StarWars blog database&gt;</h3>
+
+## Content
+
+1. Language
+2. Project instructions
+3. Instalation
+
+
+## 👩‍💻Language
+<p>This project contains:</p>
+
+<ol>
+    <li>SQL</li>
+    <li>SQLALCHEMY</li>
+    <li>UML</li>
+    <li>DATA-MODELING</li>
+</ol>
+
+## 📝Proyect instructions 
 We are going to be creating the Entity Relationship Diagram for your StarWars Blog Database, a very similar diagram to this one:
 
 ![Starwars Diagram](https://github.com/breatheco-de/exercise-starwars-data-modeling/blob/master/assets/example.png?raw=true)
-[Click to open diagram](https://app.quickdatabasediagrams.com/#/d/LxNXQZ)
-
-> 🔥 You can use this FREE tool to practice your diagram for the first time: https://app.quickdatabasediagrams.com/#/d/
-
-## 💻 Instalation
-
-1. Get inside the environment `$ pipenv shell`
-
-2. Install all dependencies `$ pipenv install`
-
-3. Generate de diagram as many times as you need `$ python src/models.py`
-
-4. Open the file `diagram.png` to check out your UML diagram!
-
-
-## 📝Instructions
-
-Your Job is to update the `src/models.py` file with the code needed to replicate the Starwars data model.
 
 The project is using the SQLAlchemy Python library to generate the database.
 
@@ -37,5 +44,21 @@ The project is using the SQLAlchemy Python library to generate the database.
 - What are the relationships between those tables?
 - Please add at least 4 models with all of its properties.
 - Generate the diagram.png file at the end by running `$ python3 models.py` on the console.
+
+
+
+## 💻 Instalation
+
+1. Get inside the environment `$ pipenv shell`
+
+2. Install all dependencies `$ pipenv install`
+
+3. Generate de diagram as many times as you need `$ python src/models.py`
+
+4. Open the file `diagram.png` to check out your UML diagram!
+
+
+Your Job is to update the `src/models.py` file with the code needed to replicate the Starwars data model.
+
 
 
